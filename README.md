@@ -30,4 +30,4 @@ Before running the application, make sure you have the following software instal
    
 5. **Run the Streamlit App**
    ```bash
-   streamlit run app.py
+   streamlit run app_ollama.py

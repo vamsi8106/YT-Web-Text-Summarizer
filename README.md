@@ -8,9 +8,26 @@ Before running the application, make sure you have the following software instal
 1. **Python**: Python 3.10.
 2. **Conda**: Package and environment management system.
 
-**Setup Instructions**
-1. Clone the repository
-2. Create a virtual environment (optional but recommended)
-3. Install dependencies
-4. Install and Start Ollama Server
-5. Run the Streamlit App
+## Installation
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/vamsi8106/YT-Web-Text-Summarizer.git
+2. **Create and Activate a Conda Environment**
+
+   ```bash
+   conda create --n ollama_env python=3.10
+   ```
+   ```bash
+   conda activate ollama_env
+3. **Install Dependencies**
+   ```bash
+   pip install -r requirements.txt     
+4. **Set Up Ollama**
+   ```bash
+   ollama pull llama3
+   
+5. **Run the Streamlit App**
+   ```bash
+   streamlit run app.py
